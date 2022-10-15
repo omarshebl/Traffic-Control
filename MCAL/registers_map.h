@@ -1,3 +1,7 @@
+/*
+This header file contains the registers physical address, extracted from ATmega328P datasheet.
+*/
+
 #ifndef _REGISTERS_MAP_H_
 #define _REGISTERS_MAP_H_
 

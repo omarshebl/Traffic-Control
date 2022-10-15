@@ -1,3 +1,8 @@
+/*
+This header file contains some usefull macros for bitwise operations on registers.
+Which simplifies the code and makes it more readable.
+*/
+
 #ifndef _BITOP_H_
 #define	_BITOP_H_
 
@@ -18,7 +23,6 @@
 #define NCHK_BIT(X, BIT_NO) (((X)&(1<<BIT_NO))==0)
 
 #define SET_MBIT(X, M, V)   (X)=(((X)&((0xff)^(M)))|((V)&(M)))
-
 
 #define SET_REG(X)          (X)=0xFF
 #define CLR_REG(X)          (X)=0x00
